@@ -8,27 +8,60 @@
 :root {
 
     --cor_div: rgb(27, 97, 46);
+    --cor_header: rgb(0, 62, 17);
 }
 
+/* cabeçalho */
 
-#circulo {
-    margin: 10px;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    background-color: var(--cor_div);
-}
+    header {
+        background-color: var(--cor_header);
+        padding: 10px;
+    }
 
-#quadrado {
-    margin: 10px;
-    width: 200px;
-    height: 200px;
-    background-color: var(--cor_div);
-}
+    h1 {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 50px;
+    }
 
-#retangulo {
-    margin: 10px;
-    width: 200px;
-    height: 100px;
-    background-color: var(--cor_div);
-}
+    nav > a {
+        text-decoration: none;
+        color: white;
+        padding: 0px 10px;
+    }
+
+    nav > a:hover {
+        transition: 1s;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.468);
+    }
+
+/* cabeçalho */
+
+
+/* conteudo principal */
+
+    #circulo {
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-color: var(--cor_div);
+    }
+
+    #quadrado {
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+        background-color: var(--cor_div);
+    }
+
+    #retangulo {
+        margin: 10px;
+        width: 200px;
+        height: 100px;
+        background-color: var(--cor_div);
+    }
+
+/* conteudo principal */
