@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+
+    --cor_div: grey;
+}
+
+
+#circulo {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: var(--cor_div);
+}
+
+#quadrado {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: var(--cor_div);
+}
+
+#retangulo {
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: var(--cor_div);
+}
