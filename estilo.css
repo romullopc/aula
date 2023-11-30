@@ -11,7 +11,7 @@
     --cor_header: rgb(0, 62, 17);
 }
 
-/* cabeçalho */
+/* header */
 
     header {
         background-color: var(--cor_header);
@@ -37,7 +37,7 @@
         text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.468);
     }
 
-/* cabeçalho */
+/* header */
 
 
 /* conteudo principal */
@@ -65,3 +65,20 @@
     }
 
 /* conteudo principal */
+
+/* footer */
+
+    #container {
+        padding: 30px;
+        background-color: var(--cor_header);
+        text-align: center;
+
+    }
+
+    #container > p {
+        color: white;
+        display: inline-block;
+        margin: auto;
+    }
+
+/* footer */
