@@ -42,6 +42,10 @@
 
 /* conteudo principal */
 
+    body {
+        background-color: bisque;
+    }
+
     #circulo {
         margin: 10px;
         width: 200px;
